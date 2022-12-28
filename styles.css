@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fira Code", monospace;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+/* NAV BAR */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 0;
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    max-height: 120px;
+}
+
+.links {
+    font-size: larger;
+}
