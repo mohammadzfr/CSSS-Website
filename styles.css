@@ -52,7 +52,7 @@ button {
 
 /* hover effect when hovering over top links */
 .links li:hover {
-    background-color: green;
+    background-color: #34a443;
     border-radius: 10px;
 }
 
@@ -109,10 +109,17 @@ button:hover {
 /* --FOOTER-- */
 
 .footer {
+    /* display: flex; */
+    justify-content: space-between;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: 16px 0px;
     text-align: center;
     background-color: #212121;
+}
+
+.social img {
+    margin-top: 16px;
+    width: 32px;
 }
