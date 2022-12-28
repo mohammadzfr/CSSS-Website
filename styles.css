@@ -9,6 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 ul {
     list-style: none;
@@ -94,9 +95,10 @@ button:hover {
 
 /* --PARTNERS-- */
 
-.partners .title, .partners .items{
+.partners .title, .partners .items {
     color: black;
     text-align: center;
+    margin: 16px 0px;
 }
 
 /* resizing CIPS logo */
