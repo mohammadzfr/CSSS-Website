@@ -135,3 +135,16 @@ span {
     width: 80%;
     border: 2px solid #212121;
 }
+
+/* ## CONTACT PAGE ## */
+.contact {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact .info {
+    padding: 16px;
+    text-align: center;
+    color: #212121;
+}
