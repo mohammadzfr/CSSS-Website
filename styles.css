@@ -2,8 +2,6 @@
 html,body {
     width: 100%;
     height: 100%;
-    /* overflow-x: auto;
-    overflow-y: auto; */
 }
 
 * {
@@ -206,4 +204,5 @@ span {
     padding: 16px;
     text-align: center;
     color: #212121;
+    font-weight: bold;
 }
