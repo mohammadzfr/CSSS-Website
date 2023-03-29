@@ -80,7 +80,7 @@ button {
     border-radius: 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .toggle-button {
         display: flex;
     }
@@ -201,8 +201,13 @@ span {
 }
 
 .contact .info {
-    padding: 16px;
+    padding: 24px;
     text-align: center;
     color: #212121;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.info a {
+    text-decoration: underline;
+    color: black;
 }
