@@ -152,15 +152,22 @@ button:hover {
 
 /* --PARTNERS-- */
 
-.partners .title, .partners .items {
+.partners .title, .partners .items, .calendar .title {
     color: black;
     text-align: center;
     margin: 16px 0px;
 }
 
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
 /* resizing CIPS logo */
 .items img{
-    max-width: 300px;
+    max-width: 200px;
+    padding: 16px;
 }
 
 /* --FOOTER-- */
@@ -182,17 +189,41 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
-.person h2, .person p{
+.current {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 120px;
+    margin: 8px;
+    padding: 8px;
+    
+}
+.person h2, .person p, .prev > *, .team h2, .team h3{
     color: #212121;
     text-align: center;
     padding: 8px;
 }
-
-span {
-    width: 80%;
-    border: 2px solid #212121;
+.prev {
+    margin: 8px;
 }
-
+.team span {
+    width: 80%;
+    border: 2px solid #106115;
+}
+/* ## EVENTS PAGE ## */
+iframe {
+    margin: 0 auto;
+    display: block;
+    border-style:none;
+    padding-bottom: 16px;
+}
 /* ## CONTACT PAGE ## */
 .contact {
     display: flex;
