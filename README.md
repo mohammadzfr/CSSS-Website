@@ -1,5 +1,5 @@
 # UofR Comp Sci Student Society Static Site
-
+![Image](./files/Screenshot.png)
 Link: https://mohammadzfr.github.io/CSSS-Website/<br>
 Old Site: http://csss.cs.uregina.ca/
 <br>New site concept integrating the CSSS's new branding and logo
